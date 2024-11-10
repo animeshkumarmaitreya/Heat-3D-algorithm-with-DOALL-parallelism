@@ -1,4 +1,4 @@
 ## Usage 
 ```
-gcc -fopenmp heat3d.c -o heat3d
+gcc -fopenmp -o heat3d heat3d.c -lnuma -lm 
 ```
